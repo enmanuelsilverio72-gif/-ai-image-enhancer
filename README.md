@@ -1228,4 +1228,15 @@
         });
     </script>
 </body>
-</html>
+</html>this.originalImageData = img; // Ahora guardamos
+if (!this.originalImageData) {
+    aiStatus.textContent = '❌ Error: Imagen no cargada correctamente';
+    return;
+try {
+    // Procesamiento IA
+} catch (error) {
+    // Fallback a upscaling básico
+}
+if (imageData.data.every(pixel => pixel === 0)) {
+    // Si está vacío, hacer upscaling básico
+}
